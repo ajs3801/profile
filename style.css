@@ -133,6 +133,44 @@ p {
   border-left: 3px solid var(--color-school);
 }
 
+#project {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project__holder {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.project__title {
+  margin: 30px 0px 30px 0px;
+  padding-left: 20px;
+  border-left: 3px solid var(--color-school);
+}
+
+.project__content {
+  background-color: var(--color-light-grey);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+}
+
+.project__description {
+  margin: 20px 0px 20px 0px;
+  color: var(--color-white);
+  padding-left: 20px;
+  border-left: 3px solid var(--color-white);
+}
+
+.project__main {
+  display: flex;
+}
+
 #contact {
   background-color: var(--color-blue);
   padding: 30px 0px 30px 0px;
